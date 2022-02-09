@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests in <TodoListItem /> should match with snapshot, all default 1`] = `
+<li
+  className="list-group-item"
+  key="1"
+>
+  <p
+    className="false"
+    onClick={[Function]}
+  >
+    2
+    . 
+    Aprender React
+  </p>
+  <button
+    className="btn btn-danger"
+    onClick={[Function]}
+  >
+    Borrar
+  </button>
+</li>
+`;

@@ -1,0 +1,86 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en <AppRouter /> should match with snapshot 1`] = `
+<div>
+  <nav
+    className="navbar navbar-expand-sm navbar-dark bg-dark"
+  >
+    <button
+      aria-controls="navbarText"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+      className="navbar-toggler"
+      data-target="#navbarText"
+      data-toggle="collapse"
+      type="button"
+    >
+      <span
+        className="navbar-toggler-icon"
+      />
+    </button>
+    <div
+      className="collapse navbar-collapse"
+      id="navbarText"
+    >
+      <ul
+        className="navbar-nav mr-auto"
+      >
+        <li
+          className="nav-item"
+        >
+          <a
+            aria-current="page"
+            className="nav-link active"
+            href="/"
+            onClick={[Function]}
+            style={Object {}}
+          >
+            Home
+          </a>
+        </li>
+        <li
+          className="nav-item"
+        >
+          <a
+            aria-current={null}
+            className="nav-link"
+            href="/about"
+            onClick={[Function]}
+          >
+            About
+          </a>
+        </li>
+        <li
+          className="nav-item"
+        >
+          <a
+            aria-current={null}
+            className="nav-link"
+            href="/login"
+            onClick={[Function]}
+          >
+            Login
+          </a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <div
+    className="container"
+  >
+    <div>
+      <h1>
+        Home Screen
+      </h1>
+      <hr />
+      <pre>
+        {
+   "id": 123,
+   "name": "raul",
+   "email": "rc@hd.com"
+}
+      </pre>
+    </div>
+  </div>
+</div>
+`;

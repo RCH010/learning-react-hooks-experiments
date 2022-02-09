@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests in TodoAdd should match with snapshot with default props 1`] = `
+<Fragment>
+  <h2>
+    Agregar
+  </h2>
+  <hr />
+  <form
+    onSubmit={[Function]}
+  >
+    <input
+      autoComplete="off"
+      className="form-control"
+      name="description"
+      onChange={[Function]}
+      placeholder="Hacer..."
+      type="text"
+      value=""
+    />
+    <button
+      className="btn btn-outline-primary btn-block"
+      type="submit"
+    >
+      Agregar
+    </button>
+  </form>
+</Fragment>
+`;

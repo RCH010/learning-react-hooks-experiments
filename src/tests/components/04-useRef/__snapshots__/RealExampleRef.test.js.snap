@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests in UseRef realExample should display component <MultipleCustomHooks/> 1`] = `
+<div>
+  <h1
+    className="h1"
+  >
+    Real Example useRef
+  </h1>
+  <br />
+  <MultipleCustomHooks />
+  <button
+    className="btn btn-primary"
+    onClick={[Function]}
+  >
+    Show/Hide
+  </button>
+</div>
+`;
+
+exports[`Tests in UseRef realExample should display correctly 1`] = `
+<div>
+  <h1
+    className="h1"
+  >
+    Real Example useRef
+  </h1>
+  <br />
+  <button
+    className="btn btn-primary"
+    onClick={[Function]}
+  >
+    Show/Hide
+  </button>
+</div>
+`;

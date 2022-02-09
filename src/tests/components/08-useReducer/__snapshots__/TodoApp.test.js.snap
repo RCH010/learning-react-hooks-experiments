@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests in TodoApp should match TodoApp with snapshot 1`] = `
+<div>
+  <h1>
+    TodoApp ( 
+    0
+     )
+  </h1>
+  <br />
+  <div
+    className="row"
+  >
+    <div
+      className="col-7"
+    >
+      <TodoList
+        handleDelete={[Function]}
+        handleToggle={[Function]}
+        todos={Array []}
+      />
+    </div>
+    <div
+      className="col"
+    >
+      <TodoAdd
+        handleAddTodo={[Function]}
+      />
+    </div>
+  </div>
+</div>
+`;
